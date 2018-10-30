@@ -1,8 +1,10 @@
-const express = require('express');
+import express from 'express';
+
 const app = express();
 const port = process.env.PORT || 6969;
 
 // console.log that your server is up and running
+
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
 // create a GET route
